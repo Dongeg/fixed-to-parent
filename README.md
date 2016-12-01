@@ -5,18 +5,8 @@ css相对于父元素做fixed定位
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-</head>
-<body>
-  <div class="relative">
-     relative content
-    <div class="content"></div>
-    <div class="fixed">fixed</div>
-  </div>
-</body>
-</html>
-```
-```css
+<title>css相对于父元素做fixed定位</title>
+<style type="text/css">
 body { 
     background: #ccc;
     height: 2000px ; 
@@ -44,4 +34,14 @@ body {
   float:left;
   height:1800px;
 }
+</style>
+</head>
+<body>
+  <div class="relative">
+     relative content
+    <div class="content"></div>
+    <div class="fixed">fixed</div>
+  </div>
+</body>
+</html>
 ```
