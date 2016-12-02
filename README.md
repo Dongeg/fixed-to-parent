@@ -1,6 +1,6 @@
 # fixed-to-parent
 css相对于父元素做fixed定位
-
+ps(这样做有个副作用，整个页面的fixed都失效了)
 美工一句话，我的一小时·······
 ```html
 <!DOCTYPE html>
